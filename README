@@ -1,0 +1,34 @@
+1. Clone this Repository or Download this Project from Github
+
+2. Open the project in Intellij or Eclipse
+
+3. Make sure your Hadoop Instance is running locally
+
+For Word Count Problem
+
+4. Edit the build artifact so that WordCount.java is the file that is the executable in the JAR.
+
+5. Build the JAR artifact
+
+6. Copy the src/test/resources/input/wordcount directory over to your hadoop instance in /input/wordcount
+
+7. Run the JAR with hadoop using "hadoop jar /out/artifacts/Programming2_jar/Programming2.jar /input/wordcount /output/wordcount"
+
+8. Output will be in a file "/output/wordcount/part-r-00000" on your hadoop instance
+
+For Top 100 Words Problem
+
+4. Edit the build artifact so that your java file (list below) is the file that is the executable in the JAR.
+
+    a. Top100Words.java is the 2 Jobs with Arrays
+    b. Top100Words2.java is the 1 Job
+    c. Top100Words3.java is the 2 jobs with no arrays
+
+
+5. Build the JAR artifact
+
+6. Copy the src/test/resources/input/wordcount directory over to your hadoop instance in /input/wordcount
+
+7. Run the JAR with hadoop using "hadoop jar /out/artifacts/Programming2_jar/Programming2.jar /input/wordcount /output/wordcount"
+
+8. Output will be in a file "/output/wordcount/part-r-00000" on your hadoop instance
